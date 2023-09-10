@@ -15,7 +15,7 @@ const BottomCompo = () => {
                 </div>
             </a>
             <div className="my-teams" >
-                <div class="bottom-text">
+                <div className="bottom-text">
                     My teams
                 </div>
             </div>

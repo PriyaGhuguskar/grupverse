@@ -98,11 +98,16 @@ const LeftCompo = () => {
                         </h4>
                         <div className="mainContainer">
                             <table>
-                                <tbody>
 
-                                    <div className="globalUsersMyName"
-                                        style={{ textAlign: "center", width: "100%", margin: "0px auto" }}>
-                                        PriyaSG: 227</div>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div className="globalUsersMyName"
+                                                style={{ textAlign: "center", width: "100%", margin: "0px auto" }}>
+                                                PriyaSG: 227</div>
+                                        </td>
+                                    </tr>
+
                                     <tr className="diffTeam">
                                         <td style={{
                                             borderWidth: "2px 2px 0px 0px", borderTopStyle: "solid",
@@ -116,7 +121,7 @@ const LeftCompo = () => {
                                                 alignItems: 'center', justifyContent: 'center', gap: '10px'
                                             }}>
                                                 <div>
-                                                    <img src="https://grupverse.com/api/api/undefined" alt="" />
+                                                    <img src="" alt="" />
                                                 </div>
                                                 <h5 style={{ fontWeight: '700', fontSize: '1rem' }} >
                                                     <a href="/">
