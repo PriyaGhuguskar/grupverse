@@ -1,0 +1,96 @@
+.postCard {
+    background-color: #fff;
+    border: 0.016rem solid #dcdcdc;
+    border-radius: 1.25rem;
+    box-shadow: -0.31rem -0.31 0.31 #db7093;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0px auto;
+    margin-bottom: 1.87rem;
+
+    max-width: 25rem;
+    padding: 0.62rem 0.62rem 1.87rem;
+}
+
+.categoryContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 0.3;
+}
+
+.category {
+    border: 0.12rem solid #db7093;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 3.12rem;
+    margin: 0 0.62rem;
+    width: 3.125;
+}
+
+.post-heading {
+    display: flex;
+    font-weight: 700;
+    margin-left: 0.62rem;
+    margin-top: 1.8rem;
+}
+
+.imgContainer {
+    border-radius: 0.62rem;
+    box-shadow: 0.62rem 0.62rem 1.25rem #888;
+    height: auto;
+    min-height: 12.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.imgContainer .imgdiv {
+    border-radius: 0.62rem;
+    /* height: inherit; */
+    max-height: 100%;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
+}
+
+.quoteContainer {
+    font-size: 0.8125rem;
+    height: auto;
+    margin-bottom: 1.2rem;
+    margin-top: 2.1rem;
+    text-align: center;
+    width: 95%;
+}
+
+.btnContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sharebtn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 700;
+    gap: 0.5rem;
+}
+
+.btnContainer svg {
+    cursor: pointer;
+    font-size: 1.875rem;
+}

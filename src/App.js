@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import BottomCompo from './components/BottomCompo';
+import NavCompo from './components/NavCompo';
+import PageCompo from './components/PageCompo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavCompo />
+      <PageCompo />
+      <BottomCompo />
     </div>
   );
 }

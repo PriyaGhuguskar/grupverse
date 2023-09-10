@@ -1,0 +1,82 @@
+.NavDiv {
+    background-color: #fff;
+    height: 50px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.logoName {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+.NavList {
+    display: flex;
+}
+
+.NavList ul {
+    list-style-type: none;
+    list-style: none;
+
+}
+
+.NavList ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.NavList ul a {
+    color: #000;
+    display: block;
+    font-size: medium;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.NavSearch {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 20px;
+    padding: 15px 10px;
+    width: 130px;
+}
+
+.search-btn,
+.mic-btn {
+    border: none;
+    color: #000;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 7px;
+    /* height: 40px; */
+    background: none;
+    outline: none;
+
+}
+
+.NavUser img {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}

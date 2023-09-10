@@ -1,0 +1,52 @@
+.bottom-container {
+    align-items: center;
+    background-color: #ff4463;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    right: 0;
+    /* width: full; */
+    z-index: 100;
+}
+
+.create-post,
+.create-team {
+    cursor: pointer;
+    display: flex;
+}
+
+.bottom-plus {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    font-size: larger;
+    height: 20px;
+    justify-content: center;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    width: 20px;
+}
+
+.my-teams {
+    cursor: pointer;
+}
+
+.bottom-plus {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    font-size: larger;
+    height: 20px;
+    justify-content: center;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    width: 20px;
+}
